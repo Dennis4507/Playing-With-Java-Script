@@ -56,3 +56,4 @@ Solution
 To fix the error, the reassignment was removed:
 const pi = 3.14;
 // Removed the line: pi = 10;
+
