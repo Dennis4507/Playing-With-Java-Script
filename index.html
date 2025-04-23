@@ -12,42 +12,26 @@
     <button onclick="myFunction()">Try it</button>
     <p id="demo">Hello World!</p>
     <script>
-        function myFunction() {
-            // Get the text from the paragraph element with id "demo"
-            let text = document.getElementById("demo").innerHTML;
-            document.getElementById("demo").innerHTML = text.toUpperCase();
-        }
+       // When a user inputs a number
+// Loop from 1 to the entered number
+// If the current number is divisible by 3 then print "Fizz"
+// If the current number is divisible by 5 then print "Buzz"
+// If the current number is divisible by 3 and 5 then print "FizzBuzz"
+// Otherwise print the current number
 
-    function add7(number) {
-    return number + 7;
+let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
+
+for (let i = 1; i <= answer; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+        console.log("FizzBuzz");
+    } else if (i % 3 === 0) {
+        console.log("Fizz");
+    } else if (i % 5 === 0) {
+        console.log("Buzz");
+    } else {
+        console.log(i);
+    }
 }
-
-// Example usage:
-console.log(add7(3)); // Outputs: 10
-console.log(add7(10)); // Outputs: 17
-console.log(add7(0)); // Outputs: 7
-console.log(add7(-7)); // Outputs: 0
-
-function multiply(num1, num2) {
-    return num1 * num2 + num2;
-}
-
-// Example usage:
-console.log(multiply(3, 4)); // Outputs: 12
-console.log(multiply(7, 2)); // Outputs: 14
-console.log(multiply(0, 5)); // Outputs: 0
-console.log(multiply(-3, 6)); // Outputs: -18
-
-function capitalize(str) {
-    if (str.length === 0) return ""; // Handle empty strings
-    return str[0].toUpperCase() + str.slice(1).toLowerCase();
-}
-
-// Example usage:
-console.log(capitalize("hello")); // Outputs: "Hello"
-console.log(capitalize("WORLD")); // Outputs: "World"
-console.log(capitalize("jAvAsCrIpT")); // Outputs: "Javascript"
-console.log(capitalize("")); // Outputs: ""
     </script>
 </body>
 </html>
