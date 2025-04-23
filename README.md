@@ -129,4 +129,13 @@ Here’s a summary of what we just did:
 This demonstrates how we combined HTML, CSS, and JavaScript to create a simple interactive webpage.This demonstrates how we combined HTML, CSS, and JavaScript to create a simple interactive webpage.
 
 
+Then we worked on the assignment below
+
+Write a function called add7 that takes one number and returns that number + 7.
+Write a function called multiply that takes 2 numbers and returns their product.
+Write a function called capitalize that takes a string and returns that string with only the first letter capitalized. Make sure that it can take strings that are lowercase, UPPERCASE or BoTh.
+Write a function called lastLetter that takes a string and returns the very last letter of that string:
+lastLetter("abcd") should return "d"
+
+
 

@@ -29,7 +29,7 @@ console.log(add7(0)); // Outputs: 7
 console.log(add7(-7)); // Outputs: 0
 
 function multiply(num1, num2) {
-    return num1 * num2;
+    return num1 * num2 + num2;
 }
 
 // Example usage:
@@ -37,6 +37,17 @@ console.log(multiply(3, 4)); // Outputs: 12
 console.log(multiply(7, 2)); // Outputs: 14
 console.log(multiply(0, 5)); // Outputs: 0
 console.log(multiply(-3, 6)); // Outputs: -18
+
+function capitalize(str) {
+    if (str.length === 0) return ""; // Handle empty strings
+    return str[0].toUpperCase() + str.slice(1).toLowerCase();
+}
+
+// Example usage:
+console.log(capitalize("hello")); // Outputs: "Hello"
+console.log(capitalize("WORLD")); // Outputs: "World"
+console.log(capitalize("jAvAsCrIpT")); // Outputs: "Javascript"
+console.log(capitalize("")); // Outputs: ""
     </script>
 </body>
 </html>
